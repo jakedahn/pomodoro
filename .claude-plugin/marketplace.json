@@ -1,0 +1,34 @@
+{
+  "name": "pomodoro",
+  "owner": {
+    "name": "Jake Dahn",
+    "email": "jake@shruggingface.com"
+  },
+  "metadata": {
+    "description": "Reference implementation of the System Skill Pattern - an approach for building self-contained personal data systems as Claude Skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "pomodoro",
+      "source": "./dist/skills/pomodoro",
+      "description": "System Skill reference implementation showing how to build Claude Skills with persistent memory. Demonstrates the CLI + SKILL.md + Database pattern for creating tools that learn and improve over time.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jake Dahn",
+        "url": "https://github.com/jakedahn"
+      },
+      "homepage": "https://github.com/jakedahn/pomodoro",
+      "repository": "https://github.com/jakedahn/pomodoro",
+      "keywords": [
+        "pomodoro",
+        "productivity",
+        "timer",
+        "system-skill",
+        "reference-implementation"
+      ],
+      "category": "productivity",
+      "strict": false
+    }
+  ]
+}

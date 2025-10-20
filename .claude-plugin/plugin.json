@@ -1,0 +1,24 @@
+{
+  "name": "pomodoro",
+  "version": "1.0.0",
+  "description": "System Skill reference implementation showing how to build Claude Skills with persistent memory. Demonstrates the CLI + SKILL.md + Database pattern for creating tools that learn and improve over time.",
+  "author": {
+    "name": "Jake Dahn",
+    "url": "https://github.com/jakedahn"
+  },
+  "source": "./dist/skills/pomodoro",
+  "homepage": "https://github.com/jakedahn/pomodoro",
+  "repository": "https://github.com/jakedahn/pomodoro",
+  "license": "MIT",
+  "keywords": [
+    "pomodoro",
+    "productivity",
+    "timer",
+    "system-skill",
+    "reference-implementation",
+    "sqlite",
+    "cli",
+    "pattern"
+  ],
+  "category": "productivity"
+}

@@ -1,0 +1,21 @@
+# Database files
+data/*.db
+data/*.db-journal
+data/*.db-wal
+
+# Deno cache
+.deno/
+
+# Test artifacts
+*.test.db
+test-results/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
